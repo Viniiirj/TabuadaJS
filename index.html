@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <img src="img/vini.png" alt="Logotipo">
+       
+    </header>
+    <div class="titulo">
+        <h1>Tabuada</h1>
+    </div>
+    <section> 
+        
+        <div id="formulario">
+            <p>Qual tabuada você deseja saber?</p>
+            <input type="number" name="" class="form" id="num">
+            <p>Até que numero você quer?</p>
+            <input type="number" name="" class="form" id="end">
+            <input type="button" value="Calcular" id="botao" onclick="tabuada()">
+        </div>
+        <div class="resposta">
+            Preencha os valores acima.
+        </div>
+
+    </section>
 </body>
 </html>
